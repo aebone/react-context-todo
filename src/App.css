@@ -4,3 +4,15 @@
   display: flex;
   justify-content: center;
 }
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.hide-button {
+  display: none;
+}
+
+.show-button {
+  display: block;
+}
