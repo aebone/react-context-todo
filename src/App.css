@@ -39,3 +39,9 @@
   flex: 2;
   height: 2rem;
 }
+
+.todo-card {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}

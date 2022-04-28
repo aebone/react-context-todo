@@ -15,6 +15,7 @@ function App() {
         <AddTodo />
         <hr />
         <Todos />
+        <hr />
         <img src="construction.gif" alt="Under construction forever" />
       </div>
     </TodoProvider>
