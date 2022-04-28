@@ -1,13 +1,23 @@
 /** @format */
 
 import React from "react";
+import TodoProvider from "./context/todoContext";
+import Todos from "./components/Todos";
+import AddTodo from "./components/AddTodo";
 import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <p>Oi</p>
-    </div>
+    <TodoProvider>
+      <div className="App">
+        <h1>Todo List</h1>
+        <hr />
+        <AddTodo />
+        <hr />
+        <Todos />
+        <img src="construction.gif" alt="Under construction forever" />
+      </div>
+    </TodoProvider>
   );
 }
 

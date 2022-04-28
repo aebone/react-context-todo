@@ -17,13 +17,13 @@ const AddTodo: React.FC = () => {
     saveTodo(formData);
   };
   return (
-    <form className="Form" onSubmit={(e) => handleSaveTodo(e, formData)}>
+    <form className="form" onSubmit={(e) => handleSaveTodo(e, formData)}>
       <div>
-        <div>
+        <div className="input-row">
           <label htmlFor="name">Title</label>
           <input onChange={handleForm} type="text" id="title" />
         </div>
-        <div>
+        <div className="input-row">
           <label htmlFor="description">Description</label>
           <input onChange={handleForm} type="text" id="description" />
         </div>

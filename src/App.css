@@ -1,8 +1,11 @@
 /** @format */
 
 .App {
-  display: flex;
-  justify-content: center;
+  display: block;
+  width: fit-content;
+  margin: auto;
+  padding: 2rem 6rem;
+  background-color: blanchedalmond;
 }
 
 .line-through {
@@ -15,4 +18,24 @@
 
 .show-button {
   display: block;
+}
+
+.form {
+  padding: 1rem;
+}
+
+.input-row {
+  padding: 0.4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-row label {
+  flex: 1;
+  font-weight: bold;
+}
+
+.input-row input {
+  flex: 2;
+  height: 2rem;
 }
